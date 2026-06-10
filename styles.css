@@ -23,7 +23,7 @@ body{
 /* HEADER */
 
 .header{
-    background-color: #ad0a92;
+    background-color: #a73594;
     padding: 15px 0;
 }
 
@@ -58,11 +58,10 @@ body{
 /* HERO */
 
 .hero{
-    background: linear-gradient(
-        135deg,
-        #ffcef7,
-        #ebbae2
-    );
+    background: linear-gradient(rgba(44, 24, 16, 0.7), rgba(44, 24, 16, 0.7)),
+    url('imagens/flores.png');
+    background-size: cover;
+    background-position: bottom;
     padding: 100px 20px;
     text-align: center;
 }
@@ -70,7 +69,7 @@ body{
 .hero-content{
     max-width: 700px;
     margin: auto;
-    
+    color: #fff
 }
 
 .hero-badge{
@@ -80,6 +79,7 @@ body{
     border-radius: 30px;
     margin-bottom: 20px;
     font-size: .9rem;
+    color: #680c58
 }
 
 .hero-content h1{
@@ -100,7 +100,7 @@ body{
 }
 
 .text-botao{
-    color: #680c58;
+    color: #91257f;
     text-decoration: none;
 }
 .text-botao1{
